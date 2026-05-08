@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+bin/
+lib/
+include/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data (Avoid uploading large datasets like MNIST to GitHub)
+data/
+datasets/
+*.zip
+*.tar.gz
+
+# Model Checkpoints and Saved Models
+# Training can produce large files that clog up a repository
+*.h5
+*.keras
+checkpoint/
+saved_model/
+
+# IDE settings
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Environment variables
+.env
