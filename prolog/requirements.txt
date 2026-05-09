@@ -1,0 +1,4 @@
+# Software Requirements
+SWI-Prolog >= 9.0.0
+VS Code 
+VSC-Prolog Extension (for linting and syntax highlighting)
